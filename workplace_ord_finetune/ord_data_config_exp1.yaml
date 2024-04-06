@@ -1,0 +1,4 @@
+META:
+  -
+    path: 'USPTO-n100k-t2048_exp1/train.json'  # path to the training set
+    type: 'text'

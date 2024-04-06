@@ -1,6 +1,6 @@
 from typing import Dict
 
-def format_prompt(format_dict: Dict, sys_name="alpaca"):
+def format_prompt(format_dict: Dict, sys_name="None"):
     if sys_name == "alpaca":
         prompt_dict = {
             "prompt_input": (

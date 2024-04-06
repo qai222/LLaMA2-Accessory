@@ -1,4 +1,4 @@
 META:
   -
-    path: '../data/alpaca_gpt4_data.json'
+    path: '/home/qai/LLaMA2-Accessory/qai/data/alpaca_gpt4_data.json'
     type: 'text'

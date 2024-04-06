@@ -100,7 +100,7 @@ class FinetuneDataset(Dataset):
                 if meta.get("preprocess", None) is not None:
                     meta_l = MetaPreprocessor().preprocess(meta_l, meta['preprocess'])
 
-                prompt_type = meta.get('prompt_type', 'alpaca')
+                prompt_type = meta.get('prompt_type', 'None')
                 print(f"system prompt: {prompt_type}")
                 for _ in meta_l:
                     _['sys_prompt'] = prompt_type
